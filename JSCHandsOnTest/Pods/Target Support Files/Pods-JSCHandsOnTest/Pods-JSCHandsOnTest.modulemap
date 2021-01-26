@@ -1,0 +1,6 @@
+framework module Pods_JSCHandsOnTest {
+  umbrella header "Pods-JSCHandsOnTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

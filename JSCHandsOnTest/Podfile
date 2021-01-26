@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JSCHandsOnTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JSCHandsOnTest
+
+  # Storage
+  pod 'RealmSwift', '~> 10.0.0'
+  
+  # Network Stuff
+  # pod 'Alamofire'
+  pod 'Alamofire', '~> 4.7'
+  pod 'ObjectMapper'
+  pod 'SwiftyJSON'
+  pod 'FGRoute'
+  
+  # Autolayout
+  pod 'SnapKit'
+
+  # Code stuff
+  pod 'SwifterSwift'
+  pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+  
+  # Cache Stuff
+  pod 'Kingfisher', '~> 5.2'
+  
+  # UI stuff
+  pod 'PKHUD'
+  pod 'SkeletonView'
+  pod 'ESTabBarController-swift'
+  pod 'GoogleSignIn'
+  pod 'MaterialComponents/TextFields'
+  pod "UILoadControl"
+  pod 'pop'
+  pod 'SlideMenuControllerSwift', :git => 'https://github.com/Pratik-Sodha/SlideMenuControllerSwift.git', :branch => 'swift5'
+  
+  # firebase auth
+  pod 'Firebase/Auth'
+  
+  # Keyboard Manager
+  pod 'IQKeyboardManagerSwift'
+
+end

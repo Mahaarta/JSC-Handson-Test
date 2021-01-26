@@ -20,6 +20,20 @@
 		04D4BF0A25BFC3FF008BF94B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF0925BFC3FF008BF94B /* UIColorExtension.swift */; };
 		04D4BF0D25BFC420008BF94B /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF0C25BFC420008BF94B /* MainNavigationController.swift */; };
 		04D4BF3325BFC7BC008BF94B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF3225BFC7BC008BF94B /* Constants.swift */; };
+		04D4BF3725BFEB4E008BF94B /* DataContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF3625BFEB4E008BF94B /* DataContact.swift */; };
+		04D4BF3D25BFF02D008BF94B /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF3B25BFF02D008BF94B /* AddContactViewController.swift */; };
+		04D4BF3E25BFF02D008BF94B /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D4BF3C25BFF02D008BF94B /* AddContactViewController.xib */; };
+		04D4BF4225BFF18B008BF94B /* DataContactRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF4125BFF18B008BF94B /* DataContactRequest.swift */; };
+		04D4BF4525BFF1E0008BF94B /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF4425BFF1E0008BF94B /* ApiHelper.swift */; };
+		04D4BF4825BFF1EE008BF94B /* CommonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF4725BFF1EE008BF94B /* CommonHelper.swift */; };
+		04D4BF4B25BFF20A008BF94B /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF4A25BFF20A008BF94B /* Endpoints.swift */; };
+		04D4BF4F25BFF3B7008BF94B /* DataContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF4D25BFF3B7008BF94B /* DataContactCollectionViewCell.swift */; };
+		04D4BF5025BFF3B7008BF94B /* DataContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D4BF4E25BFF3B7008BF94B /* DataContactCollectionViewCell.xib */; };
+		04D4BF5725BFF7E3008BF94B /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF5625BFF7E3008BF94B /* UICollectionViewCellExtension.swift */; };
+		04D4BF5A25C00767008BF94B /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF5925C00767008BF94B /* UINavigationController.swift */; };
+		04D4BF9B25C01164008BF94B /* SelectedContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF9A25C01164008BF94B /* SelectedContacts.swift */; };
+		04D4BFA125C013AF008BF94B /* DetailContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4BF9F25C013AF008BF94B /* DetailContactsViewController.swift */; };
+		04D4BFA225C013AF008BF94B /* DetailContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D4BFA025C013AF008BF94B /* DetailContactsViewController.xib */; };
 		9DD49FE388D1629B3A7A91C5 /* Pods_JSCHandsOnTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7649E4575F381A623E029A /* Pods_JSCHandsOnTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +53,20 @@
 		04D4BF0925BFC3FF008BF94B /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		04D4BF0C25BFC420008BF94B /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		04D4BF3225BFC7BC008BF94B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04D4BF3625BFEB4E008BF94B /* DataContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContact.swift; sourceTree = "<group>"; };
+		04D4BF3B25BFF02D008BF94B /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		04D4BF3C25BFF02D008BF94B /* AddContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddContactViewController.xib; sourceTree = "<group>"; };
+		04D4BF4125BFF18B008BF94B /* DataContactRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContactRequest.swift; sourceTree = "<group>"; };
+		04D4BF4425BFF1E0008BF94B /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		04D4BF4725BFF1EE008BF94B /* CommonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelper.swift; sourceTree = "<group>"; };
+		04D4BF4A25BFF20A008BF94B /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		04D4BF4D25BFF3B7008BF94B /* DataContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContactCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D4BF4E25BFF3B7008BF94B /* DataContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataContactCollectionViewCell.xib; sourceTree = "<group>"; };
+		04D4BF5625BFF7E3008BF94B /* UICollectionViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtension.swift; sourceTree = "<group>"; };
+		04D4BF5925C00767008BF94B /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		04D4BF9A25C01164008BF94B /* SelectedContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedContacts.swift; sourceTree = "<group>"; };
+		04D4BF9F25C013AF008BF94B /* DetailContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactsViewController.swift; sourceTree = "<group>"; };
+		04D4BFA025C013AF008BF94B /* DetailContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailContactsViewController.xib; sourceTree = "<group>"; };
 		3D7649E4575F381A623E029A /* Pods_JSCHandsOnTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCHandsOnTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5691A4C49A6E144979EF7C29 /* Pods-JSCHandsOnTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCHandsOnTest.debug.xcconfig"; path = "Target Support Files/Pods-JSCHandsOnTest/Pods-JSCHandsOnTest.debug.xcconfig"; sourceTree = "<group>"; };
 		B6ED416293846DBE4368CE9A /* Pods-JSCHandsOnTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCHandsOnTest.release.xcconfig"; path = "Target Support Files/Pods-JSCHandsOnTest/Pods-JSCHandsOnTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +121,7 @@
 				04D4BECF25BFBE88008BF94B /* MainTabBarController.swift */,
 				04D4BF0C25BFC420008BF94B /* MainNavigationController.swift */,
 				04D4BF3225BFC7BC008BF94B /* Constants.swift */,
+				04D4BF4A25BFF20A008BF94B /* Endpoints.swift */,
 			);
 			path = JSCHandsOnTest;
 			sourceTree = "<group>";
@@ -108,6 +137,7 @@
 		04D4BECA25BFB8B7008BF94B /* ApiRequests */ = {
 			isa = PBXGroup;
 			children = (
+				04D4BF4125BFF18B008BF94B /* DataContactRequest.swift */,
 			);
 			path = ApiRequests;
 			sourceTree = "<group>";
@@ -115,6 +145,7 @@
 		04D4BECB25BFB8C4008BF94B /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				04D4BF3625BFEB4E008BF94B /* DataContact.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -122,6 +153,8 @@
 		04D4BECC25BFB8CC008BF94B /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				04D4BF4D25BFF3B7008BF94B /* DataContactCollectionViewCell.swift */,
+				04D4BF4E25BFF3B7008BF94B /* DataContactCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -129,6 +162,9 @@
 		04D4BECD25BFB8D1008BF94B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				04D4BF9E25C0139A008BF94B /* Detail Contacts */,
+				04D4BF9925C0115A008BF94B /* SelectedContacts */,
+				04D4BF3A25BFF015008BF94B /* Add Contact */,
 				04D4BEE225BFC20A008BF94B /* Home */,
 			);
 			path = Modules;
@@ -148,6 +184,8 @@
 			children = (
 				04D4BF0525BFC3E6008BF94B /* UIViewController.swift */,
 				04D4BF0925BFC3FF008BF94B /* UIColorExtension.swift */,
+				04D4BF5625BFF7E3008BF94B /* UICollectionViewCellExtension.swift */,
+				04D4BF5925C00767008BF94B /* UINavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -155,8 +193,36 @@
 		04D4BF0425BFC3B1008BF94B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				04D4BF4425BFF1E0008BF94B /* ApiHelper.swift */,
+				04D4BF4725BFF1EE008BF94B /* CommonHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04D4BF3A25BFF015008BF94B /* Add Contact */ = {
+			isa = PBXGroup;
+			children = (
+				04D4BF3B25BFF02D008BF94B /* AddContactViewController.swift */,
+				04D4BF3C25BFF02D008BF94B /* AddContactViewController.xib */,
+			);
+			path = "Add Contact";
+			sourceTree = "<group>";
+		};
+		04D4BF9925C0115A008BF94B /* SelectedContacts */ = {
+			isa = PBXGroup;
+			children = (
+				04D4BF9A25C01164008BF94B /* SelectedContacts.swift */,
+			);
+			path = SelectedContacts;
+			sourceTree = "<group>";
+		};
+		04D4BF9E25C0139A008BF94B /* Detail Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				04D4BF9F25C013AF008BF94B /* DetailContactsViewController.swift */,
+				04D4BFA025C013AF008BF94B /* DetailContactsViewController.xib */,
+			);
+			path = "Detail Contacts";
 			sourceTree = "<group>";
 		};
 		2887221E0FE6A4EE09D7A990 /* Pods */ = {
@@ -237,8 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D4BEC125BFB86E008BF94B /* LaunchScreen.storyboard in Resources */,
+				04D4BFA225C013AF008BF94B /* DetailContactsViewController.xib in Resources */,
+				04D4BF5025BFF3B7008BF94B /* DataContactCollectionViewCell.xib in Resources */,
 				04D4BEBE25BFB86E008BF94B /* Preview Assets.xcassets in Resources */,
 				04D4BEBB25BFB86E008BF94B /* Assets.xcassets in Resources */,
+				04D4BF3E25BFF02D008BF94B /* AddContactViewController.xib in Resources */,
 				04D4BEE625BFC219008BF94B /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,15 +378,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D4BF9B25C01164008BF94B /* SelectedContacts.swift in Sources */,
 				04D4BEE525BFC219008BF94B /* HomeViewController.swift in Sources */,
+				04D4BF3D25BFF02D008BF94B /* AddContactViewController.swift in Sources */,
+				04D4BF4225BFF18B008BF94B /* DataContactRequest.swift in Sources */,
+				04D4BF4F25BFF3B7008BF94B /* DataContactCollectionViewCell.swift in Sources */,
 				04D4BF0A25BFC3FF008BF94B /* UIColorExtension.swift in Sources */,
+				04D4BF4B25BFF20A008BF94B /* Endpoints.swift in Sources */,
 				04D4BF0D25BFC420008BF94B /* MainNavigationController.swift in Sources */,
 				04D4BEB225BFB86B008BF94B /* AppDelegate.swift in Sources */,
+				04D4BF4825BFF1EE008BF94B /* CommonHelper.swift in Sources */,
 				04D4BF0625BFC3E6008BF94B /* UIViewController.swift in Sources */,
 				04D4BEB425BFB86B008BF94B /* SceneDelegate.swift in Sources */,
 				04D4BED025BFBE88008BF94B /* MainTabBarController.swift in Sources */,
+				04D4BF4525BFF1E0008BF94B /* ApiHelper.swift in Sources */,
 				04D4BEB925BFB86B008BF94B /* JSCHandsOnTest.xcdatamodeld in Sources */,
+				04D4BF3725BFEB4E008BF94B /* DataContact.swift in Sources */,
+				04D4BF5A25C00767008BF94B /* UINavigationController.swift in Sources */,
 				04D4BF3325BFC7BC008BF94B /* Constants.swift in Sources */,
+				04D4BFA125C013AF008BF94B /* DetailContactsViewController.swift in Sources */,
+				04D4BF5725BFF7E3008BF94B /* UICollectionViewCellExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

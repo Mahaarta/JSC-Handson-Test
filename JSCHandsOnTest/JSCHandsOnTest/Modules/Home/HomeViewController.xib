@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="JSCHandsOnTest" customModuleProvider="target">
             <connections>
+                <outlet property="colView" destination="DVI-xQ-0fu" id="5bU-Jl-L4U"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +20,40 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYR-Bp-ynO">
-                    <rect key="frame" x="186" y="437.5" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbP-vw-xnL">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="DVI-xQ-0fu">
+                            <rect key="frame" x="16" y="16" width="382" height="786"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wpd-KA-KaE">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="HrE-hA-SBs"/>
+                                <outlet property="delegate" destination="-1" id="r4N-1j-75A"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="DVI-xQ-0fu" firstAttribute="top" secondItem="YbP-vw-xnL" secondAttribute="top" constant="16" id="9yD-jh-dgv"/>
+                        <constraint firstAttribute="trailing" secondItem="DVI-xQ-0fu" secondAttribute="trailing" constant="16" id="F4b-SF-JAj"/>
+                        <constraint firstItem="DVI-xQ-0fu" firstAttribute="leading" secondItem="YbP-vw-xnL" secondAttribute="leading" constant="16" id="GsN-lm-wcy"/>
+                        <constraint firstAttribute="bottom" secondItem="DVI-xQ-0fu" secondAttribute="bottom" constant="16" id="nNN-FZ-GfA"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="aYR-Bp-ynO" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="KN3-oL-PR8"/>
-                <constraint firstItem="aYR-Bp-ynO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PBs-yR-ROw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="YbP-vw-xnL" secondAttribute="bottom" id="WG4-33-kbv"/>
+                <constraint firstItem="YbP-vw-xnL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Zsd-Yk-ohf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YbP-vw-xnL" secondAttribute="trailing" id="icF-SO-i8U"/>
+                <constraint firstItem="YbP-vw-xnL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="lwz-Hl-aDq"/>
             </constraints>
             <point key="canvasLocation" x="141" y="81"/>
         </view>
